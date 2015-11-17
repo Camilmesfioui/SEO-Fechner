@@ -3,12 +3,9 @@
   float: none;
   margin: 0 auto;
 }
-<<<<<<< HEAD
-=======
 .navbar {
   text-transform: uppercase;
 }
->>>>>>> d2789d2c99a46fcbc92411850ecd81eefa76a2c1
 .navbar .navbar-brand img {
   display: inline;
   width: 45px;
