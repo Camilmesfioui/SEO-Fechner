@@ -68,7 +68,7 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Compétences <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="#">Designer 3D</a></li>
-                        <li><a href="#">Concepteur</a></li>
+                        <li><a href="#">Concepteur web</a></li>
                         <li><a href="#">Création vidéo</a></li>
                         <li><a href="#">Graphisme</a></li>
                     </ul>
