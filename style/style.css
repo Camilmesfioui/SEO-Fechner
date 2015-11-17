@@ -3,8 +3,8 @@
   float: none;
   margin: 0 auto;
 }
-.container {
-  width: 500px;
+.navbar {
+  text-transform: uppercase;
 }
 .navbar .navbar-brand img {
   display: inline;
