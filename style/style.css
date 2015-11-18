@@ -236,3 +236,53 @@ footer .reseaux {
     color: #0e7bb2;
 }
 
+/*** Fin FOOTER ***/
+
+/*** Contact ***/
+
+.contact-right {
+    padding-top: 20px;
+}
+
+.contact-right textarea,.contact-right input {
+    text-align: center;
+}
+
+#message::-webkit-input-placeholder::before {
+    font-family: fontAwesome;
+    content:'\f27b  ';
+    color: #69f;
+}
+
+#name::-webkit-input-placeholder::before {
+    font-family: fontAwesome;
+    content:'\f007  ';
+    color: #69f;
+}
+
+#mail::-webkit-input-placeholder::before {
+    font-family: fontAwesome;
+    content:'\f003  ';
+    color: #69f;
+}
+
+#phone::-webkit-input-placeholder::before {
+    font-family: fontAwesome;
+    content:'\f095  ';
+    color: #69f;
+}
+
+#button-contact {
+    background: #4b86fc;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
