@@ -18,9 +18,12 @@
     left: 10px;
 }
 
+/* Margin-top général */
 .contenu {
+    background: url("../images/bg.jpg") fixed center center / cover;
     margin-top: 50px;
 }
+/*Designer 3D */
 
 /* HOME */
 #menuv{
@@ -138,9 +141,32 @@
 }
 
 
+.design {
+    color: #ffffff;
+}
+
+.design img {
+    width: 250px;
+}
+
+.design .photo{
+    text-align: right;
+}
+
+.design .texte h3 {
+    padding-top: 100px;
+}
+
+/* HOME */
+
+
+
+/* FOOTER */
+
 footer {
     padding-top: 10px;
     position: absolute;
+    left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
