@@ -17,6 +17,11 @@
     bottom: 10px;
     left: 10px;
 }
+
+.contenu {
+    margin-top: 50px;
+}
+
 /* HOME */
 .hovereffect {
     width: 100%;
