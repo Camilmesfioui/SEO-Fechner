@@ -122,12 +122,23 @@
 
 <div class="container-fluid">
 	<div class="row" id="">
-		<div class="col-md-3 image">
+		<div class="col-md-4 col-md-offset-4 image text-center">
 			 <img src="images/fechner.jpg">
 		</div>
 	</div>
 
-	<div class="col-md-5">
+	<div class="col-md-6 col-md-offset-3">
+
+		<p id="textv" class="text-center">
+
+			 Jonathan Fechner est Consultant Indépendant Digital spécialiste des techniques de l'information et de la communication. 
+			 Il trouve des solutions multimédia pour les entreprises.</br> Son intervention sur vos projets et avant-projets permet de vous apporter des réponses claires,
+			 du cahier des charges fonctionnel au succès de l'opération. </br>
+             Vous êtes une entreprise ou un porteur de projet, grâce à son réseau de plus de 200 professionnels reconnus,
+             Jonathan Fechner peut constituer une équipe dédiée pour garantir le succès de votre projet. 
+             Opération de communication, création de site web, 3D, print, ou vidéo, faire appel à Jonathan Fechner c’est gagner un temps précieux et la certitude d’atteindre vos objectifs.
+
+		</p>
 </div>
 
 <?php require("footer.php"); ?>

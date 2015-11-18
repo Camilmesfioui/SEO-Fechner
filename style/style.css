@@ -33,12 +33,20 @@
 
 .image img{
 
-    width:100%;
+    width:80%;
+    border-radius: 50%;
 }
 
 .homev{
 
     height: 100vh;
+}
+
+#textv{
+
+    margin-top:40px;
+    font-style: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.4em;
 }
 /* 1er over TEST
 
@@ -213,7 +221,7 @@
   position: relative;
   text-align: center;
   cursor: default;
-  background: darkgrey;
+  background: #000;
 }
 
 .hovereffect .overlay {
