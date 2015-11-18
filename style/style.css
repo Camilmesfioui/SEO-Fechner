@@ -45,14 +45,26 @@
     height: 100vh;
 }
 
-
-#textv{
+.texteL {
+    border-right: solid 1px #ffffff;
+    text-align: right;
     color: #ffffff;
     margin-top:40px;
     font-style: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 1.4em;
     margin-bottom: 50px;
 }
+
+.texteR {
+    text-align: left;
+    color: #ffffff;
+    margin-top:40px;
+    font-style: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.4em;
+    margin-bottom: 50px;
+}
+
+
 
 .hovereffect {
     border-radius: 5px;
