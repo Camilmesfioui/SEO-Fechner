@@ -1,6 +1,6 @@
 <?php require("header.php"); ?>
 
-<div class="design">
+<div class="competences design">
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-md-offset-1 photo">

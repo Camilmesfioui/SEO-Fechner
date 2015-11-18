@@ -20,7 +20,7 @@
 
 /* Margin-top général */
 .contenu {
-    background: url("../images/bg.jpg") fixed center center / cover;
+    background: url("../images/bg.jpg") fixed center top / cover;
     margin-top: 50px;
 }
 /*Designer 3D */
@@ -156,21 +156,45 @@
 }
 
 
-.design {
+.competences {
+    padding-bottom: 15px;
+    padding-top: 50px;
     color: #ffffff;
 }
 
-.design img {
-    width: 250px;
+.competences img {
+    border: 1px solid #ffffff;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
 }
 
-.design .photo{
+.competences .photo {
     text-align: right;
 }
 
-.design .texte h3 {
-    padding-top: 100px;
+.competences .texte {
+    border-left: 5px double #ffffff;
 }
+
+.design h3 {
+    margin-top: 110px;
+}
+
+.web h3 {
+    margin-top: 90px;
+}
+
+.video h3 {
+    margin-top: 120px;
+}
+
+.graphisme h3 {
+    margin-top: 100px;
+}
+
+
 
 /* HOME */
 
