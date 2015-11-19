@@ -29,22 +29,15 @@ ul {
 /*Designer 3D */
 
 /* HOME */
-#menuv{
-    margin-top: 100px;
-}
-
-#menuv2{
-    margin-top: 30px;
-}
-
 
 .image img{
+    border: 2px solid #ffffff;
+    margin-top: 50px;
     width:80%;
     border-radius: 50%;
 }
 
-.homev{
-
+.home{
     height: 100vh;
 }
 
@@ -53,7 +46,6 @@ ul {
     text-align: right;
     color: #ffffff;
     margin-top:40px;
-    font-style: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 1.4em;
     margin-bottom: 50px;
 }
@@ -62,7 +54,6 @@ ul {
     text-align: left;
     color: #ffffff;
     margin-top:40px;
-    font-style: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 1.4em;
     margin-bottom: 50px;
 }
@@ -79,6 +70,7 @@ ul {
   text-align: center;
   cursor: default;
   background: #000;
+    margin-top: 30px;
 }
 
 .hovereffect .overlay {
@@ -206,7 +198,7 @@ ul {
 /* FOOTER */
 
 footer {
-    padding-top: 10px;
+    padding-top: 5px;
     text-align: center;
     background: rgb(248, 248, 248);
     border-top: 1px solid #e8e8e8;
@@ -215,11 +207,6 @@ footer {
 footer .container .row .col-md-4 p i {
     font-size: 20px;
     padding-right: 5px;
-}
-
-footer .reseaux {
-    position: relative;
-    bottom: 5px;
 }
 
 .socials-footer {
@@ -303,12 +290,22 @@ footer .reseaux {
     background: #4b86fc;
     color: #fff;
     display: block;
-    margin: 0 auto 20px auto;
-    width: 50%;
+    margin: 20px auto 20px auto;
+    width: 45%;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+#button-contact:hover {
+    border: 1px solid #ffffff;
 }
 
 .text-contact {
-    padding: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     color: #fff;
     text-align: center;
 }
@@ -425,6 +422,27 @@ footer .reseaux {
     position: absolute;
     top: 50%;
     width: 100%;
+}
+
+.form-control {
+    border: 2px solid #69f;
+}
+
+textarea {
+    max-width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .text-contact {
+        text-align: left;
+    }
+}
+
+@media (max-width: 991px) {
+    .image {
+        margin-top: 50px;
+    }
 }
 
 .List {
