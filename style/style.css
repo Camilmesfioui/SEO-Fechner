@@ -203,7 +203,7 @@
 /* FOOTER */
 
 footer {
-    padding-top: 10px;
+    padding-top: 5px;
     text-align: center;
     background: rgb(248, 248, 248);
     border-top: 1px solid #e8e8e8;
@@ -212,11 +212,6 @@ footer {
 footer .container .row .col-md-4 p i {
     font-size: 20px;
     padding-right: 5px;
-}
-
-footer .reseaux {
-    position: relative;
-    bottom: 5px;
 }
 
 .socials-footer {
