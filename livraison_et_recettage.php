@@ -1,17 +1,47 @@
 <?php require("header.php"); ?>
 
-<div class="competences design">
+
     <div class="container">
         <div class="row">
-            <div class="col-md-4 col-md-offset-1 photo">
-                <img src="images/3d.jpg" alt="">
+            <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1 image text-center">
+            <img src="images/recettage.jpg" alt="">
+            <hr>
             </div>
-            <div class="col-md-6 texte">
-                <h3>Designer 3D</h3>
-                <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum debitis hic ipsam rem sit. Accusamus aspernatur autem eaque est exercitationem explicabo modi mollitia placeat quaerat qui reprehenderit, saepe, sint voluptas!</span><span>Atque commodi cupiditate distinctio eligendi ex fuga, hic itaque laboriosam nemo nihil nisi odio officiis perspiciatis porro, reiciendis unde velit. Amet assumenda dignissimos laudantium optio quaerat, repellendus tenetur velit vitae.</span><span>Architecto eaque eum, iste libero magnam necessitatibus quas repellat rerum totam vitae. Animi assumenda autem consequatur, dignissimos dolor ea est et, ex ipsum, maiores nam odit ratione similique unde voluptates!</span><span>A deserunt doloremque dolorum mollitia nisi placeat praesentium quis soluta, sunt! Ad, dolor nobis officia quas sit soluta unde. Distinctio dolorem facere ipsam, magni omnis reiciendis rerum soluta ut voluptas.</span><span>Aperiam architecto dolores doloribus fugit ipsum minima nobis placeat quisquam temporibus vel. Alias, consectetur earum fugit illo iure obcaecati odio officia perspiciatis, qui reprehenderit saepe, sit ut velit voluptas voluptatum!</span></p>
+                
+            <div class="col-md-6 col-md-offset-3 texte recetv">
+                <h3>Livraison & Recettage</h3>
+                <p>Qu’es ce que le recettage ? Une technique de cuisine ? Non, le recettage de
+
+permet de vérifier la conformité de votre projet avec la demande du client. C'est la mémoire du 
+
+projet, la recette de votre succès. C'est dans le cahier de recettage que vous expliquez tous les tests 
+
+fonctionnels réalisés et comment vous validez les résultats, que vous répondez à toutes les questions 
+
+concernant le cahier des charges, le SEO et le référencement, les tests de débogage et le manuel 
+
+d’utilisation. </br></br>
+
+Le recettage est réalisé Post-Projet. Il intervient juste avant la livraison du projet au client. Le 
+
+recettage sert avant tout à vous. Avec une dizaine de projets et une dizaine de recettes, vous gagnez 
+
+du temps sur vos projets suivants. Le recettage permet de valider le projet et permet aussi de 
+
+retrouver facilement ses marques lors de la future mise à jour de projet de votre client. Il s’agit d’une 
+
+étape obligatoire et incontournable dans toute gestion de projet. Elle doit être incluse dans le budget 
+
+et le planning du projet dès le démarrage.</p>
+            </div>
+            <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1 image text-center">
+                <hr>
+            </div>
+            <div class="col-md-6 col-md-offset-3 texte recetv">
+            	<a class="btn btn-sm btn-primary" href="http://www.jonathanfechner.fr/docs/Recettage.pdf">Voir le PDF</a>
             </div>
         </div>
     </div>
-</div>
+
 
 <?php require("footer.php"); ?>

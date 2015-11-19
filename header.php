@@ -87,10 +87,10 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tutoriaux <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Avant projet</a></li>
-                        <li><a href="#">Gestion de projet</a></li>
-                        <li><a href="#">Phase de conception</a></li>
-                        <li><a href="#">Livraison & recettage</a></li>
+                        <li><a href="avant_projet.php">Avant projet</a></li>
+                        <li><a href="gestion_de_projet.php">Gestion de projet</a></li>
+                        <li><a href="phase_de_conception.php">Phase de conception</a></li>
+                        <li><a href="livraison_et_recettage.php">Livraison & recettage</a></li>
                     </ul>
                 </li>
                 <li><a href="contact.php">Contact</a></li>
