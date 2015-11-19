@@ -10,7 +10,7 @@
                     <div class="overlay">
                         <h2>COMPETENCES</h2>
                         <p>
-                            <a href="conception_web.php">En savoir plus</a>
+                            <a class="btn btn-sm btn-primary" href="conception_web.php">En savoir plus</a>
                         </p>
                     </div>
                 </div>
@@ -21,7 +21,7 @@
                     <div class="overlay">
                         <h2>EXPERIENCES</h2>
                         <p>
-                            <a href="experiences.php">En savoir plus</a>
+                            <a class="btn btn-sm btn-primary" href="experiences.php">En savoir plus</a>
                         </p>
                     </div>
                 </div>
@@ -35,7 +35,7 @@
                     <div class="overlay">
                         <h2>TUTORIAUX</h2>
                         <p>
-                            <a href="">En savoir plus</a>
+                            <a class="btn btn-sm btn-primary" href="gestion_de_projet.php">En savoir plus</a>
                         </p>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                     <div class="overlay">
                         <h2>CONTACT</h2>
                         <p>
-                            <a href="contact.php">En savoir plus</a>
+                            <a class="btn btn-sm btn-primary" href="contact.php">En savoir plus</a>
                         </p>
                     </div>
                 </div>
