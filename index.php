@@ -11,11 +11,12 @@
                 <div class="overlay">
                     <h2>COMPETENCES</h2>
                     <p>
-                        <a href="#">En savoir plus</a>
+                        <a href="conception_web.php">En savoir plus</a>
                     </p>
                 </div>
             </div>
         </div>
+
 
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <div class="hovereffect">
@@ -23,7 +24,7 @@
                 <div class="overlay">
                     <h2>EXPERIENCES</h2>
                     <p>
-                        <a href="#">En savoir plus</a>
+                        <a href="experiences.php">En savoir plus</a>
                     </p>
                 </div>
             </div>
@@ -38,7 +39,7 @@
                 <div class="overlay">
                     <h2>TUTORIAUX</h2>
                     <p>
-                        <a href="#">En savoir plus</a>
+                        <a href="">En savoir plus</a>
                     </p>
                 </div>
             </div>
@@ -50,7 +51,7 @@
                 <div class="overlay">
                     <h2>CONTACT</h2>
                     <p>
-                        <a href="#">En savoir plus</a>
+                        <a href="contact.php">En savoir plus</a>
                     </p>
                 </div>
             </div>

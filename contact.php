@@ -1,6 +1,6 @@
 <?php include ('header.php'); ?>
 
-<div class="row">
+<div class="container">
     <div class="col-md-6 col-centered">
         <h1 class="h1-contact">Contactez-moi !</h1>
     </div>
@@ -12,8 +12,7 @@
 <!-- Contact Form -->
 
 <div class="container">
-    <div class="row">
-        <div class="col-md-8 col-centered">
+        <div class="col-md-8 col-sm-12 col-centered">
             <p class="text-contact">
                 Vous recherchez un chef de projet, un spécialiste de la stratégie digitale, un
 
@@ -36,9 +35,9 @@
         </div>
 
         <div class="row">
-            <div class="col-md-8 contact-right col-centered">
+            <div class="col-md-8 col-sm-10 contact-right col-centered">
                 <form method="post" action="contact.php" id="contact-us">
-                    <div class="col-md-5 col-sm-5 col-xs-12 animated hiding" data-animation="slideInLeft">
+                    <div class="col-md-6 col-sm-6 col-xs-12 animated hiding" data-animation="slideInLeft">
                         <div class="form-group">
                             <input id="name" type="text" name="fullname" class="form-control input-lg" placeholder="Nom">
                         </div>
@@ -49,7 +48,7 @@
                             <input id="phone" type="text" name="phone" class="form-control input-lg" placeholder="Téléphone">
                         </div>
                     </div>
-                    <div class="col-md-7 col-sm-7 col-xs-12 animated hiding" data-animation="slideInRight">
+                    <div class="col-md-6 col-sm-6 col-xs-12 animated hiding" data-animation="slideInRight">
                         <div class="form-group">
                             <textarea cols="30" rows="6" id="message" name="message" class="form-control input-lg" placeholder="Message"></textarea>
                         </div>
@@ -73,8 +72,6 @@
                 <p><i class="fa fa-envelope"></i>contact@jonathanfechner.fr</p>
             </div>
         </div>
-
-    </div>
 </div>
 
 <!-- Fin Contact Form -->
