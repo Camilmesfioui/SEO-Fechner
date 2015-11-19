@@ -12,6 +12,16 @@
     <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/timeline.js"></script>
+    <script type="text/javascript" src="js/bootstrap.youtubepopup.js"></script>
+    <script type="text/javascript" src="js/bootstrap.youtubepopup.min.js"></script>
+    <script type="text/javascript" src="js/js.js"></script>
+    <script type="text/javascript">
+    $(function () {
+        $(".youtube").YouTubeModal({autoplay:0, width:640, height:480});
+    });
+    </script>
+
 
     <!-- Dublin Core -->
     <meta name="DC.title" content="Jonathan Fechner - Consultant SEO - Val d'Oise - 95">
@@ -77,10 +87,10 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tutoriaux <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Avant projet</a></li>
-                        <li><a href="#">Gestino de projet</a></li>
-                        <li><a href="#">Phase de conception</a></li>
-                        <li><a href="#">Livraison & recettage</a></li>
+                        <li><a href="avant_projet.php">Avant projet</a></li>
+                        <li><a href="gestion_de_projet.php">Gestion de projet</a></li>
+                        <li><a href="phase_de_conception.php">Phase de conception</a></li>
+                        <li><a href="livraison_et_recettage.php">Livraison & recettage</a></li>
                     </ul>
                 </li>
                 <li><a href="contact.php">Contact</a></li>
