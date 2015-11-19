@@ -15,7 +15,8 @@
             <div class="timeline-body">
               <p id="titrev">Libérez-vous... apprenez a être créatif dans toutes les situations. Y compris sous pression ! comprenez les mécanismes de votre esprit, et développez votre potentiel créatif. </p>
             </div>
-
+            <hr>
+            <button type="button" class="btn btn-sm btn-primary">Voir le PDF</button>
           </div>
         </li>
         <li class="timeline-inverted">
@@ -27,7 +28,8 @@
             <div class="timeline-body">
               <p id="titrev">Avant de vous lancer a corp perdu dans votre projet, avez-vous analyser le marché sur lequel vous vous lancez ? avez-vous identifier vos concurrents ? vos forces et vos faiblesses ? vous trouverez ici les outils de base pour entreprendre en terrain connu. </p>
             </div>
-
+            <hr>
+<button type="button" class="btn btn-sm btn-primary">Voir le PDF</button>
           </div>
         </li>
         <li>
@@ -39,7 +41,8 @@
             <div class="timeline-body">
               <p id="titrev">Pour votre projet, vous avez identifier vos concurrents et vos clients, comprenez mieux votre marché grace à ces outils d'analyse. Quelles sont les technologies utilisés par vos concurrents, pourquoi votre cible préfère utiliser les services de tel ou tel concurrents. compilez ces information afin de fournir un projet de qualité à votre cible. </p>
             </div>
-            
+            <hr>
+<button type="button" class="btn btn-sm btn-primary">Voir le PDF</button>
           </div>
         </li>
         

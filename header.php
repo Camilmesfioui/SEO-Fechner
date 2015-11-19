@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Jonathan Fechner | Formateur et Consultant en Gestion de Projet</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style/bootstrap.min.css">
     <link rel="stylesheet" href="style/style.css"/>
     <link rel="stylesheet" href="style/animate.css">
@@ -11,6 +12,7 @@
     <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<<<<<<< HEAD
     <script type="text/javascript" src="js/timeline.js"></script>
     <script type="text/javascript" src="js/bootstrap.youtubepopup.js"></script>
     <script type="text/javascript" src="js/bootstrap.youtubepopup.min.js"></script>
@@ -20,6 +22,8 @@
         $(".youtube").YouTubeModal({autoplay:0, width:640, height:480});
     });
     </script>
+=======
+>>>>>>> 2f0a3d483edc44c31e05824de516616cef5b1ae9
 
     <!-- Dublin Core -->
     <meta name="DC.title" content="Jonathan Fechner - Consultant SEO - Val d'Oise - 95">
@@ -66,7 +70,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="images/logo-fechner.png" alt=""><span class="nom">Jonathan Fechner</span></a>
+            <a class="navbar-brand" href="index.php"><img src="images/logo-fechner.png" alt=""><span class="nom">Jonathan Fechner</span></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -75,13 +79,13 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Compétences <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Designer 3D</a></li>
-                        <li><a href="#">Concepteur web</a></li>
-                        <li><a href="#">Création vidéo</a></li>
-                        <li><a href="#">Graphisme</a></li>
+                        <li><a href="design_3d.php">Design 3D</a></li>
+                        <li><a href="conception_web.php">Conception web</a></li>
+                        <li><a href="creation_video.php">Création vidéo</a></li>
+                        <li><a href="graphisme.php">Graphisme</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Expériences</a></li>
+                <li><a href="experiences.php">Expériences</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tutoriaux <span class="caret"></span></a>
                     <ul class="dropdown-menu">
@@ -91,7 +95,7 @@
                         <li><a href="#">Livraison & recettage</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->

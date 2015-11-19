@@ -20,28 +20,21 @@
 
 /* Margin-top général */
 .contenu {
-    background: url("../images/bg.jpg") fixed center center / cover;
+    background: url("../images/bg.jpg") fixed center top / cover;
     margin-top: 50px;
 }
 /*Designer 3D */
 
 /* HOME */
-#menuv{
-    margin-top: 100px;
-}
-
-#menuv2{
-    margin-top: 30px;
-}
-
 
 .image img{
+    border: 2px solid #ffffff;
+    margin-top: 50px;
     width:80%;
     border-radius: 50%;
 }
 
-.homev{
-
+.home{
     height: 100vh;
 }
 
@@ -82,6 +75,7 @@
   text-align: center;
   cursor: default;
   background: #000;
+    margin-top: 30px;
 }
 
 .hovereffect .overlay {
@@ -162,22 +156,45 @@
 }
 
 
-.design {
+.competences {
+    padding-bottom: 15px;
+    padding-top: 50px;
     color: #ffffff;
 }
 
-.design img {
-    width: 250px;
+.competences img {
+    border: 1px solid #ffffff;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
 }
 
-.design .photo{
+.competences .photo {
     text-align: right;
 }
 
-.design .texte h3 {
-    padding-top: 100px;
+.competences .texte {
+    border-left: 5px double #ffffff;
 }
 
+.design h3 {
+    margin-top: 110px;
+}
+
+.web h3 {
+    margin-top: 90px;
+}
+
+.video h3 {
+    margin-top: 120px;
+}
+
+.graphisme h3 {
+    margin-top: 100px;
+}
+
+<<<<<<< HEAD
 /* TUTORIAUX : Avant_projet */
 
 .timeline {
@@ -364,6 +381,9 @@
         }
 }
 
+
+/* HOME */
+
 #titrev{
 
     color: white;
@@ -380,7 +400,7 @@ text-align: center;
 /* FOOTER */
 
 footer {
-    padding-top: 10px;
+    padding-top: 5px;
     text-align: center;
     background: rgb(248, 248, 248);
     border-top: 1px solid #e8e8e8;
@@ -389,11 +409,6 @@ footer {
 footer .container .row .col-md-4 p i {
     font-size: 20px;
     padding-right: 5px;
-}
-
-footer .reseaux {
-    position: relative;
-    bottom: 5px;
 }
 
 .socials-footer {
@@ -436,4 +451,118 @@ footer .reseaux {
 .fa-linkedin-square:hover {
     color: #0e7bb2;
 }
+
+/*** Fin FOOTER ***/
+
+/*** Contact ***/
+
+.contact-right {
+    padding-top: 20px;
+}
+
+.contact-right textarea,.contact-right input {
+    text-align: center;
+}
+
+#message::-webkit-input-placeholder::before {
+    font-family: fontAwesome;
+    content:'\f27b  ';
+    color: #69f;
+}
+
+#name::-webkit-input-placeholder::before {
+    font-family: fontAwesome;
+    content:'\f007  ';
+    color: #69f;
+}
+
+#mail::-webkit-input-placeholder::before {
+    font-family: fontAwesome;
+    content:'\f003  ';
+    color: #69f;
+}
+
+#phone::-webkit-input-placeholder::before {
+    font-family: fontAwesome;
+    content:'\f095  ';
+    color: #69f;
+}
+
+#button-contact {
+    background: #4b86fc;
+    color: #fff;
+    display: block;
+    margin: 20px auto 20px auto;
+    width: 45%;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+#button-contact:hover {
+    border: 1px solid #ffffff;
+}
+
+.text-contact {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.text-contact b {
+    color: #69f;
+}
+
+.contact-me {
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+    color: #fff;
+}
+
+.contact-me i {
+    color: #69f;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.h1-contact {
+    color: #fff;
+    text-align: center;
+}
+
+.hr-contact {
+    border: 2px solid white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.form-control {
+    border: 2px solid #69f;
+}
+
+textarea {
+    max-width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .text-contact {
+        text-align: left;
+    }
+}
+
+@media (max-width: 991px) {
+    .image {
+        margin-top: 50px;
+    }
+}
+
+
+
+
+
 
