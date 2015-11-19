@@ -1,3 +1,5 @@
+// Inline Slider
+
 $(function(){
     var scroller = $('#scroller div.innerScrollArea');
     var scrollerContent = scroller.children('ul');
@@ -17,7 +19,7 @@ $(function(){
     var tweenToNewSpeed = function(newSpeed, duration)
     {
         if (duration === undefined)
-            duration = 600;
+            duration = 1200;
         $controller.stop(true).animate({curSpeed:newSpeed}, duration);
     };
 
@@ -41,7 +43,7 @@ $(function(){
     tweenToNewSpeed(controller.fullSpeed);
 });
 
-// progress
+// progress circle
 
 (function ($){
 

@@ -1,19 +1,5 @@
 <?php include ('header.php'); ?>
 
-<!--    <div id="scroller" style="width: 550px; height: 400px; margin: 0 auto;">-->
-<!--        <div class="innerScrollArea">-->
-<!--            <ul>-->
-<!--                <!-- Define photos here -->
-<!--                <li><img src="images/clients/atlantic.png" width="600" height="400" /></li>-->
-<!--                <li><img src="images/clients/axa_assurances.png" width="267" height="400" /></li>-->
-<!--                <li><img src="images/clients/banque_populaire.png" width="600" height="400" /></li>-->
-<!--                <li><img src="images/clients/dassault_systemes.png" width="535" height="400" /></li>-->
-<!--                <li><img src="images/clients/gan_assurances.png" width="267" height="400" /></li>-->
-<!--                <li><img src="images/clients/institut_de_internet_et_du_multimedia.png" width="267" height="400" /></li>-->
-<!--            </ul>-->
-<!--        </div>-->
-<!--    </div>-->
-
 <article class="experiences">
 
     <div class="container">
@@ -147,8 +133,68 @@
         </div>
     </div>
 
-
-
 </article>
+
+<section class="business">
+
+    <div class="container">
+        <div class="row">
+            <h1>Références Clients</h1>
+        </div>
+    </div>
+
+    <div id="scroller" style="width: 100%; height: 100px; margin: 0 auto;">
+        <div class="innerScrollArea">
+            <ul>
+                <!-- Define photos here -->
+                <li>
+                    <img src="images/clients/axa_assurances.png" height="100" />
+                </li>
+                <li>
+                    <img src="images/clients/banque_populaire.png" height="100" />
+                </li>
+                <li>
+                    <img src="images/clients/dassault_systemes.png" height="100" />
+                </li>
+                <li>
+                    <img src="images/clients/gan_assurances.png" height="100" />
+                </li>
+                <li>
+                    <img src="images/clients/institut_de_internet_et_du_multimedia.png" height="100" />
+                </li>
+                <li>
+                    <img src="images/clients/isc_paris.png" height="100" />
+                </li>
+                <li>
+                    <img src="images/clients/le_cetim.png" height="100" />
+                </li>
+                <li>
+                    <img src="images/clients/lr_etanco.png" height="100" />
+                </li>
+                <li>
+                    <img src="images/clients/ministere_enseignement_superieur_recherche.png" height="100" />
+                </li>
+                <li>
+                    <img src="images/clients/nike.png" height="100" />
+                </li>
+                <li>
+                    <img src="images/clients/procter_gamble.png" height="100" />
+                </li>
+                <li>
+                    <img src="images/clients/sagem.png" height="100" />
+                </li>
+                <li>
+                    <img src="images/clients/snsh_groupe_eiffage.png" height="100" />
+                </li>
+                <li>
+                    <img src="images/clients/societe_generale.png" height="100" />
+                </li>
+                <li>
+                    <img src="images/clients/sup_career_inseec.png" height="100" />
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
 
 <?php include ('footer.php'); ?>

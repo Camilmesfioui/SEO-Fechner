@@ -268,6 +268,18 @@ footer .container .row .col-md-4 p i {
     color: #69f;
 }
 
+#message::-moz-placeholder::before {
+    font-family: fontAwesome;
+    content:'\f27b  ';
+    color: #69f;
+}
+
+input:-moz-placeholder {
+    font-family: fontAwesome;
+    content:'\f27b  ';
+    color: #69f;
+}
+
 #name::-webkit-input-placeholder::before {
     font-family: fontAwesome;
     content:'\f007  ';
@@ -365,6 +377,17 @@ footer .container .row .col-md-4 p i {
     margin: 0;
     list-style-type: none;
     position: absolute;
+}
+
+.business {
+
+    background: url("../images/business.jpg") no-repeat fixed center center / cover #666;
+    background-position: 0px -72px;
+}
+
+.business h1 {
+    text-align: center;
+    color: #000;
 }
 
 .experiences {
