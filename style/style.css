@@ -26,22 +26,15 @@
 /*Designer 3D */
 
 /* HOME */
-#menuv{
-    margin-top: 100px;
-}
-
-#menuv2{
-    margin-top: 30px;
-}
-
 
 .image img{
+    border: 2px solid #ffffff;
+    margin-top: 50px;
     width:80%;
     border-radius: 50%;
 }
 
-.homev{
-
+.home{
     height: 100vh;
 }
 
@@ -76,6 +69,7 @@
   text-align: center;
   cursor: default;
   background: #000;
+    margin-top: 30px;
 }
 
 .hovereffect .overlay {
@@ -355,6 +349,12 @@ textarea {
 @media (max-width: 768px) {
     .text-contact {
         text-align: left;
+    }
+}
+
+@media (max-width: 991px) {
+    .image {
+        margin-top: 50px;
     }
 }
 
