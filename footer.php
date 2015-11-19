@@ -3,13 +3,7 @@
     <div class="container">
         <div class="row col-centered">
             <div class="row">
-                <div class="col-md-4">
-                    <p><i class="fa fa-mobile"></i>06.13.24.48.61</p>
-                </div>
-                <div class="col-md-4">
-                    <p><i class="fa fa-envelope"></i>contact@jonathanfechner.fr</p>
-                </div>
-                <div class="col-md-4 reseaux">
+                <div class="col-md-6 reseaux col-centered">
                     <a class="socials-footer" href="https://www.facebook.com/sitejonathanfechner">
                         <i class="fa fa-facebook-square"></i>
                     </a>
