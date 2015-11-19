@@ -59,7 +59,7 @@
     </div>
 </div>
 
-<div class="container-fluid">
+<div class="container">
     <div class="row" id="">
         <div class="col-md-4 col-md-offset-4 image text-center">
             <img src="images/fechner.jpg">
@@ -74,8 +74,9 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore dolorem exercitationem expedita, facilis porro quisquam rerum sint. Aliquid, assumenda corporis error, ex neque omnis quam qui temporibus vel velit voluptate!</p>
         </div>
     </div>
+</div>
 
 
-    <?php require("footer.php"); ?>
+<?php require("footer.php"); ?>
 
 
