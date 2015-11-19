@@ -23,6 +23,9 @@
             </p>
         </div>
     </div>
+
+
+    <script type="text/javascript" src="js/app.js"></script>
 </footer>
 
 </body>
